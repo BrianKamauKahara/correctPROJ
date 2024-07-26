@@ -1,0 +1,5 @@
+/DisplayBot/.env
+/DownloadBot/.env
+
+/DisplayBot/node_modules
+/DownloadBot/node_modules
