@@ -4,7 +4,7 @@ import {
     generateImage,
     moderateImage,
     moderatePost
-} from '../../DownloadBot/main.js'
+} from '../main.js'
 
 const router = express.Router()
 

@@ -24,6 +24,6 @@ app.use('/',router)
 
 
 
-app.listen(5500, () => {
+app.listen(process.env.PORT, () => {
     console.log('Listening on port 4000')
 })
