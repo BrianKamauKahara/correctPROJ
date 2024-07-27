@@ -57,9 +57,7 @@ export const moderateImage = async ({"url":url = null,"file_name":fileName=null}
         return await imageModerationModel({"path":setPath})
     } else {
         return await imageModerationModel({"url":url})
-    }
-
-    
+    }    
 }   
 
 

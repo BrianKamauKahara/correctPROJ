@@ -26,12 +26,12 @@ export const imageGenerationModel = async (prompt) => {
             model: "dall-e-2",
             prompt: prompt,
             n: 1,
-            size: "512x512",
+            size: "256x256",
             })
         
         const imageURL = image.data[0].url
-        const path = await downloadImage(imageURL)
-        return {url:imageURL, path:path}
+        /* const path = await downloadImage(imageURL) */
+        return { url:imageURL }
     } catch(error){
         console.log(error)
         return {error:error.type}

@@ -1,9 +1,11 @@
 import axios from 'axios'
 import fs from 'fs'
 import path from 'path'
+import { cwd } from 'process'
 
 
 export async function downloadImage(url) {
+  /* console.log(cwd(),'SSS') */
   const to = [await generateRandomString(),".png"].join("")
   const filepath = path.join('images', '../images', to)
   const response = await axios({
