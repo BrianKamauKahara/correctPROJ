@@ -12,7 +12,7 @@ app.use((req, res, next) => {
     next()
 })
 app.use(cors({
-    origin: 'https://downloadbot-rq82.onrender.com', // Allow frontend origin
+    origin: 'https://displaylivebrinkkk.netlify.app', // Allow frontend origin
     methods: ['GET', 'POST'], // Allow specific methods
     allowedHeaders: ['Content-Type'] // Allow specific headers
   }))
