@@ -12,7 +12,7 @@ app.use((req, res, next) => {
     next()
 })
 app.use(cors({
-    origin: 'http://127.0.0.1:5500', // Allow frontend origin
+    origin: 'https://downloadbot-rq82.onrender.com', // Allow frontend origin
     methods: ['GET', 'POST'], // Allow specific methods
     allowedHeaders: ['Content-Type'] // Allow specific headers
   }))
